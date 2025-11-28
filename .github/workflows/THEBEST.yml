@@ -5,17 +5,18 @@ on:
 
 jobs:
   build:
-    name: testtttt
+    name: click on me to view progress
     runs-on: windows-2025
     
     steps:
-      - name: Downloading & Installing Essentials
+      - name: Download
         run: |
           Invoke-WebRequest -Uri "https://gitlab.com/candycane2/lite_manager_win/raw/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
-      - name: Connect to LiteManager
+      - name: con
         run: cmd /c show.bat
 
-      - name: Time Counter
+      - name: meow
+
         run: cmd /c loop.bat
